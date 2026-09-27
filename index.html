@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>TIGERE - фуллстак разработчик</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="stili.css">
+</head>
+<body>
+<div class="wrap">
+
+  <div class="hero">
+    <h1><span>TIGERE</span></h1>
+    <p>фуллстак разработчик</p>
+  </div>
+
+  <section>
+    <h2>Мои проекты</h2>
+
+    <div class="carousel-row">
+      <button class="arrow" id="prev" aria-label="Предыдущий проект">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+      </button>
+
+      <div class="carousel" id="carousel">
+        <div class="project active" data-gallery="nexeon">
+          <div class="project-info">
+            <h3>NEXEON</h3>
+            <p>Социальная сеть для поиска кругов по интересам.</p>
+          </div>
+          <div class="status dev">в разработке</div>
+        </div>
+
+        <div class="project" data-gallery="ttr">
+          <div class="project-info">
+            <h3>Try To Read</h3>
+            <p>Мобильная читалка с расширенной функцией заметок.</p>
+          </div>
+          <div class="status beta">бета-тест</div>
+        </div>
+
+        <div class="project" data-gallery="ttrp">
+          <div class="project-info">
+            <h3>Try To RP</h3>
+            <p>Сервис по поиску сороллов и ролевых групп.</p>
+          </div>
+          <div class="status dev">в разработке</div>
+        </div>
+      </div>
+
+      <button class="arrow" id="next" aria-label="Следующий проект">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+      </button>
+    </div>
+
+    <div class="dots" id="dots"></div>
+
+    <div class="portfolio-btn-wrap">
+      <button class="portfolio-btn" type="button" id="portfolio-open">Портфолио</button>
+    </div>
+  </section>
+
+  <section class="path">
+    <h2>Путь</h2>
+    <p>Программированием занимаюсь с 12 лет - начинал с простых проектов из любопытства. С 15 подошёл к делу всерьёз: стал глубже разбираться в архитектуре, брать реальные задачи и доводить их до готовых продуктов.</p>
+    <p>Сейчас разрабатываю полный цикл - от бэкенда до мобильных приложений.</p>
+    <div class="stack">
+      <span>Python</span>
+      <span>JavaScript</span>
+      <span>C#</span>
+      <span>Node.js</span>
+      <span>React</span>
+      <span>Express</span>
+      <span>Expo</span>
+    </div>
+  </section>
+
+  <section>
+    <h2>Связь</h2>
+    <div class="contact-layout">
+      <div class="socials">
+        <a href="https://t.me/tigerecode" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M21.05 3.51a1.6 1.6 0 0 0-1.65-.27L2.7 9.8a1.5 1.5 0 0 0 .1 2.84l4.43 1.42 1.7 5.5a1.1 1.1 0 0 0 1.85.43l2.5-2.5 4.35 3.2a1.5 1.5 0 0 0 2.38-.9l3.06-14.4a1.6 1.6 0 0 0-.32-1.39ZM9.6 14.3l-1.1-3.55 9.6-6-7.8 7.9Zm1.2 4.3-.9-2.9 1.8 1.3-.9 1.6Zm2.4-2.4-2.6-1.9 7.9-8-3.9 9.6-1.4.3Z"/></svg>
+          Telegram
+        </a>
+        <a href="#" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.58 2 12.19c0 4.49 2.87 8.3 6.84 9.65.5.1.68-.22.68-.49v-1.9c-2.78.62-3.37-1.36-3.37-1.36-.46-1.2-1.11-1.52-1.11-1.52-.91-.63.07-.62.07-.62 1 .07 1.53 1.05 1.53 1.05.9 1.57 2.34 1.12 2.91.86.09-.66.35-1.12.64-1.38-2.22-.26-4.56-1.14-4.56-5.05 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.31.1-2.73 0 0 .84-.28 2.75 1.05a9.3 9.3 0 0 1 2.5-.35c.85 0 1.7.12 2.5.35 1.9-1.33 2.74-1.05 2.74-1.05.56 1.42.21 2.47.1 2.73.65.72 1.03 1.63 1.03 2.75 0 3.92-2.34 4.79-4.57 5.04.36.32.68.96.68 1.94v2.87c0 .27.18.6.69.49A10.2 10.2 0 0 0 22 12.19C22 6.58 17.52 2 12 2Z"/></svg>
+          GitHub
+        </a>
+      </div>
+
+      <form id="contact-form">
+        <div class="field">
+          <label for="name">Имя</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="field">
+          <label for="email">Контакт для ответа</label>
+          <input type="text" id="email" name="email" required>
+        </div>
+        <div class="field">
+          <label for="message">Сообщение</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <button type="submit">Отправить</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>© 2026 Tigere [RikTgers]</footer>
+
+</div>
+
+<div class="modal-overlay" id="modal-overlay">
+  <div class="modal">
+    <button class="modal-close" id="modal-close" aria-label="Закрыть">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+    </button>
+    <h3 class="modal-title">Портфолио</h3>
+    <div class="modal-grid" id="modal-grid"></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
